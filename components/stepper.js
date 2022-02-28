@@ -19,17 +19,18 @@ const steps = [
     },
     {
       label: 'Farm Management',
-      description: `Try out different ad text to see what brings in the most customers,
-                and learn how to enhance your ads using features like ad extensions.
-                If you run into any problems with your ads, find out how to tell if
-                they're running and how to resolve approval issues.`,
+      description: `
+      •	We work closely with our farmers and external managers to help with best practices, technological improvements, sustainability, and immediate access to capital.
+      •	We strive to improve our farmers' lives and ease of doing business in every way possible. Kisan Udyog farmers pay cash rent, which is a common relationship between farmers and landowners.
+      •	The rent is kept in a unique bank account held by the entity to reserve against any taxes owed or potential capital improvements until payout in December.
+      •	We charge a flat annual administration fee of 0.75% (of overall farm value) that is typically deducted from the income of the farm.`,
     },
     {
         label: 'Distribution',
-        description: `Try out different ad text to see what brings in the most customers,
-                  and learn how to enhance your ads using features like ad extensions.
-                  If you run into any problems with your ads, find out how to tell if
-                  they're running and how to resolve approval issues.`,
+        description: `
+        •	Kisan Udyog disburses excess annual income to investors. We would generally expect an unlevered yield of 3% - 5% for lower-risk properties.
+        •	Investors in each farm receive dividends each December in addition to expected annual value appreciation.
+        •	Any necessary tax documentation will be provided by February of the following year, well in advance of tax season.`,
     },
   ];
 
