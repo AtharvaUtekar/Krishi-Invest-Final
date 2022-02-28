@@ -8,6 +8,10 @@ import Grid from '@mui/material/Grid';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
+import CallIcon from '@mui/icons-material/Call';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import EmailIcon from '@mui/icons-material/Email';
 
 
 export default function StickyFooter() {
@@ -50,11 +54,37 @@ export default function StickyFooter() {
 
         <Grid item xs={12} sm={6} md={4} lg={4}>
           
-                <Typography variant="h5" component="div">
-                    Contact
+                <Typography variant="h6" component="div">
+                    CONTACT US:
                 </Typography>
                 <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                    +91 8652521225 <br />
+               
+                    <Link href="mailto:atharva.v.utekar@gmail.com?subject=Query%20regarding%20Krishi%20Invest&body=%3C%20Your%20query%20here%20%3E">
+                        <a>
+                          <img style={{ width: 38, height: 38, margin: 10 }} src="/images/gmail.png" />
+                        </a>
+                    </Link>
+                                   
+                    <Link href="tel:+91 8652521225">
+                        <a>
+                        <img style={{ width: 38, height: 38, margin: 10 }} src="/images/call.png" />                        
+                        </a>
+                    </Link>
+                                   
+                    <Link href="https://wa.me/918652521225">
+                        <a>
+                          
+                          <img style={{ width: 38, height: 38, margin: 10 }} src="/images/whatsapp.png" />
+                        </a>
+                    </Link>
+                                   
+                    <Link href="https://www.instagram.com/_aaatharva/">
+                        <a>
+                          <img style={{ width: 38, height: 38, margin: 10 }} src="/images/instagram.png" />
+                        </a>
+                    </Link>
+                    <br />
+                    Krishi Invest
                     St. Francis Institute Of Technology, Borivali <br />
                     Mumbai, Maharashtra, India
                 </Typography>
@@ -68,7 +98,7 @@ export default function StickyFooter() {
       <Grid item xs={12} sm={12} md={12} lg={12} align="center" >
         <Container sx={{marginBottom:"10"}}>
             <Typography variant="body1" color="text.secondary">
-            {'Copyright © SFIT_TEXB 2022'}
+            {'Copyright © Krishi Invest 2022'}
             {'.'}
             </Typography>
         </Container>

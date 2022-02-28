@@ -1,7 +1,7 @@
 
 import * as React from 'react';
 import List from '@mui/material/List';
-import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
 import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import ListItemAvatar from '@mui/material/ListItemAvatar';
@@ -19,6 +19,8 @@ import RadioButtonCheckedIcon from '@mui/icons-material/RadioButtonChecked';
 import Gallery from '../components/gallery';
 import Navbar from '../components/navbar2'
 import Footer from '../components/footer'
+import Link from 'next/link'
+import CurrencyRupeeIcon from '@mui/icons-material/CurrencyRupee';
 
 const viewmore = () => {
   return (
@@ -51,17 +53,15 @@ const viewmore = () => {
         >
         <br/>
         <br/>
-        <Typography sx={{ marginLeft: 5}} variant="h4">OUR SAMPLE FARMLAND</Typography>
+        <Typography sx={{ marginLeft: 7}} variant="h4">OUR SAMPLE FARMLAND</Typography>
         <br />
         
-        <Grid container>
+        <Grid container sx={{ margin: 1 }}>
             <Grid xs={12} sm={6} md={4} lg={4}>
-            <Typography sx={{ marginLeft: 5}} variant="h6">Samarth Krupa Farms</Typography>
+            <Typography sx={{ marginLeft: 7}} variant="h6">Samarth Krupa Farms</Typography>
             <hr />
             <List
               sx={{
-                width: '100%',
-                maxWidth: 300,
                 paddingLeft: 10,
               }}
             >
@@ -144,6 +144,8 @@ const viewmore = () => {
             </Grid>
             <Grid xs={12} sm={6} md={8} lg={8}>
             <Gallery />
+            <Button variant="contained" color="primary" sx={{margin: 2}}><CurrencyRupeeIcon />INVEST NOW</Button>
+            <Button variant="outlined" color="primary" sx={{margin: 2}}>Contact Us</Button>
             </Grid>
         </Grid>
 
@@ -167,7 +169,7 @@ const viewmore = () => {
               <Chip label="Investment highlights" />
             </Divider>
             <br />
-              <Typography sx={{ paddingRight: 1, align: 'justify', borderRight: 1}}>
+              <Typography sx={{ paddingRight: 2, align: 'justify'}}>
               Investment Highlights: <br />
       •	9.5 years lock in period which gives stable cashflows and potential for long term appreciation as compared to other normal revenue generating assets in India. <br />
       •	The property is currently managed by Amogh Virsawarkar and his spledid young team of agro specialits , with whose help the yield as well as the revenue have rosen as prior. <br />
@@ -183,7 +185,7 @@ const viewmore = () => {
               <Chip label="Additional Information" />
             </Divider>
             <br />
-            <Typography sx={{ paddingLeft: 2 }}> The farm is irrigated by three center pivots with water supplied by two wells that provide ample water to the crop acres. These soils are capable of growing a wide diversity of crops and drain very well. The farm is expected to grow by incorporating cotton as well as sericulture farming which  may boost lease income by 10%-20%.The farm has an active lease for 2020 with interest in a multi-year extension
+            <Typography sx={{ paddingLeft: 3 }}> The farm is irrigated by three center pivots with water supplied by two wells that provide ample water to the crop acres. These soils are capable of growing a wide diversity of crops and drain very well. The farm is expected to grow by incorporating cotton as well as sericulture farming which  may boost lease income by 10%-20%.The farm has an active lease for 2020 with interest in a multi-year extension
               </Typography>
               <br />
             

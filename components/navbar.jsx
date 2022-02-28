@@ -30,12 +30,14 @@ const navbar = () => {
                 </li>
               );
             })}
+
             <li className="nav-item">
-            <Link href='/login'>
-              <Button className="nav-title" size="large" sx={{ color:'#fff', borderColor: '#fff'}}>
-                Login to Dashboard
-              </Button>
-            </Link>
+
+                <Link href="/login">
+                  <a className="nav_link">
+                    <h5 className="nav-title">Login to Dashboard</h5>
+                  </a>
+                </Link>
 
             </li>
 

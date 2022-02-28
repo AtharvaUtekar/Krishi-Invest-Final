@@ -106,7 +106,7 @@ export default function RecipeReviewCard() {
                     </IconButton>
                   }
                   title="Mr. Akshat Shelke"
-                  subheader="Sepcialization: Crop Production and Process Control"
+                  subheader="Sepcialization: Hydropponic crop production and process control"
                 />
                 <CardMedia
                   component="img"
