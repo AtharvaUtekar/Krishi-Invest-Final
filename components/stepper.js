@@ -11,7 +11,7 @@ import Typography from '@mui/material/Typography';
 const steps = [
     {
       label: 'Farm Selection & Entity Creation',
-      description: "Each parcel we review is of the highest quality, so we select only a small fraction of them. The legal title of each farm is placed into a unique entity (usually an LLC). A unique entity establishes a real estate contract with the land owner and is given a period of time to complete due diligence, legal work, and raise funds on KissanUdyog. The typical time period for this is 30-90 days.",
+      description: "Each parcel we review is of the highest quality, so we select only a small fraction of them. The legal title of each farm is placed into a unique entity (usually an LLC). A unique entity establishes a real estate contract with the land owner and is given a period of time to complete due diligence, legal work, and raise funds on KissanInvest. The typical time period for this is 30-90 days.",
     },
     {
       label: 'Investment',
@@ -19,18 +19,17 @@ const steps = [
     },
     {
       label: 'Farm Management',
-      description: `
-      •	We work closely with our farmers and external managers to help with best practices, technological improvements, sustainability, and immediate access to capital.
-      •	We strive to improve our farmers' lives and ease of doing business in every way possible. Kisan Udyog farmers pay cash rent, which is a common relationship between farmers and landowners.
-      •	The rent is kept in a unique bank account held by the entity to reserve against any taxes owed or potential capital improvements until payout in December.
-      •	We charge a flat annual administration fee of 0.75% (of overall farm value) that is typically deducted from the income of the farm.`,
+      description:
+        `
+        We work closely with our farmers and external managers to help with best practices, technological improvements, sustainability, and immediate access to capital.
+        We strive to improve our farmers' lives and ease of doing business in every way possible. Kisan Invest farmers pay cash rent, which is a common relationship between farmers and landowners.`
     },
     {
         label: 'Distribution',
         description: `
-        •	Kisan Udyog disburses excess annual income to investors. We would generally expect an unlevered yield of 3% - 5% for lower-risk properties.
-        •	Investors in each farm receive dividends each December in addition to expected annual value appreciation.
-        •	Any necessary tax documentation will be provided by February of the following year, well in advance of tax season.`,
+        Kisan Invest disburses excess annual income to investors. We would generally expect an unlevered yield of 15% - 21% for lower-risk properties.
+        Investors in each farm receive dividends each December in addition to expected annual value appreciation.
+        Any necessary tax documentation will be provided by February of the following year, well in advance of tax season.`,
     },
   ];
 
@@ -61,10 +60,10 @@ export default function VerticalLinearStepper() {
                 ) : null
               }
             >
-              {step.label}
+              <Typography variant="h5">{step.label}</Typography>
             </StepLabel>
             <StepContent>
-              <Typography>{step.description}</Typography>
+              <Typography variant="body1">{step.description}</Typography>
               <Box sx={{ mb: 2 }}>
                 <div>
                   <Button
@@ -72,7 +71,7 @@ export default function VerticalLinearStepper() {
                     onClick={handleNext}
                     sx={{ mt: 1, mr: 1 }}
                   >
-                    {index === steps.length - 1 ? 'Finish' : 'Continue'}
+                    {index === steps.length - 1 ? 'Finish' : 'Next step'}
                   </Button>
                   <Button
                     disabled={index === 0}
@@ -90,7 +89,7 @@ export default function VerticalLinearStepper() {
 
       {activeStep === steps.length && (
         <Paper square elevation={0} sx={{ p: 3 }}>
-          <Typography variant="h5">Your Farm land is ready!</Typography>
+          <Typography variant="h4">Your farm investment is ready to draw maximum profits!</Typography>
           <Button onClick={handleReset} sx={{ mt: 1, mr: 1 }}>
             Reset to view all steps again
           </Button>
