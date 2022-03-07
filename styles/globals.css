@@ -23,16 +23,17 @@ body {
   margin-top: 0.3rem;
   margin-left: 4rem;
 }
+
 .nav_link{
   text-decoration: none;
 }
 
 .nav-title{
-  color: #fff;
-  padding: 0 0.5rem;
-  margin-top: 0;
-  margin-left: 5rem;
-  border-color: #fff;
+  color: #fff !important;
+  padding: 0 0.5rem !important;
+  margin-top: 0 !important;
+  margin-left: 5rem !important;
+  border-color: #fff !important;
 }
 
 .nav-title2{

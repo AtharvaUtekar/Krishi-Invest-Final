@@ -11,25 +11,21 @@ import Typography from '@mui/material/Typography';
 const steps = [
     {
       label: 'Farm Selection & Entity Creation',
-      description: "Each parcel we review is of the highest quality, so we select only a small fraction of them. The legal title of each farm is placed into a unique entity (usually an LLC). A unique entity establishes a real estate contract with the land owner and is given a period of time to complete due diligence, legal work, and raise funds on KissanInvest. The typical time period for this is 30-90 days.",
+      description: "We analyze the land from all facets and dispense the finest output with an explanation on the dashboard. The legal title of each farm is placed into a unique entity (usually an LLC) which stands for Limited Liability Company .A unique entity establishes a real estate contract with the land owner and is given a period of time to complete due diligence, legal work, and raise funds on KrishiInvest. The typical time period for this is 10-15 days.",
     },
     {
       label: 'Investment',
-      description: "You purchase shares in the entity that owns a farm. This can be done in just minutes online. Each entity is divided into shares equivalent to 1/10 of an acre. So, if you buy 20 shares, your ownership represents the equivalent of 2 acres of land and the associated dividends. Our online process can be completed in just minutes, and you can invest 100% electronically. Or, if you prefer, feel free to contact us for help through the investment process.",
+      description: "You purchase shares in the entity that owns a farm. This procedure could be done online with utmost ease. Each entity is divided into shares equivalent to 1/10 of an acre. So, if you plan to  buy 20 shares, your ownership represents the equivalent of 2 acres of land and the associated dividends. Our online process is reliable,encrypted and can be completed in just a few minutes, and you can invest 100% electronically. Or, if you prefer to invest conventionally feel free to contact us for help through the investment process.",
     },
     {
       label: 'Farm Management',
       description:
-        `
-        We work closely with our farmers and external managers to help with best practices, technological improvements, sustainability, and immediate access to capital.
-        We strive to improve our farmers' lives and ease of doing business in every way possible. Kisan Invest farmers pay cash rent, which is a common relationship between farmers and landowners.`
+        `We work closely with our farmers and external managers to help with best practices, technological improvements, sustainability, and immediate access to capital.To the best of our ability, we strive to improve our farmers' lives and ease of doing business in every way. KrishiInvest farmers pay cash rent, which is a common relationship between farmers and landowners`
     },
     {
         label: 'Distribution',
         description: `
-        Kisan Invest disburses excess annual income to investors. We would generally expect an unlevered yield of 15% - 21% for lower-risk properties.
-        Investors in each farm receive dividends each December in addition to expected annual value appreciation.
-        Any necessary tax documentation will be provided by February of the following year, well in advance of tax season.`,
+        Krishi Invest disburses excess annual income to investors. We would generally expect an unlevered yield of 15% - 21% for lower-risk properties. Investors in each farm receive dividends each December in addition to expected annual value appreciation. Any necessary tax documentation will be provided by February of the following year, well in advance of tax season.`,
     },
   ];
 

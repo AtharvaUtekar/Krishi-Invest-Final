@@ -14,7 +14,7 @@ const insideStyles = {
   color:"#fff",
   padding: 20,
   position: "absolute",
-  top: "50%",
+  top: "60%",
   left: "35%",
   transform: "translate(-50%,-50%)"
 };
@@ -50,10 +50,13 @@ const herosection = () => {
 
       <Navbar />
 
+
    
       <div style={{ height: 500 }}>
 
         <div style={insideStyles}>
+
+        <h2>कृषिInvest, connecting farmers and investors has never been easier.</h2>
         <h2>Diversify your portfolio while supporting a farmer</h2>
         <h3>Investing online, within minutes.</h3>
         </div>

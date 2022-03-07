@@ -29,13 +29,13 @@ export default function AcccessibleTable() {
   return (
     <div>
    
-      <Typography gutterBottom variant="h4" sx={{ fontWeight: 600, paddingLeft:5, paddingTop: 2, marginBottom: 2 }} component="h2">
+      <Typography gutterBottom variant="h4" sx={{ fontWeight: 600, paddingLeft:5, paddingTop: 2, marginBottom: 2, marginTop: 2, marginLeft: "2%" }} component="h2">
       Comparision with other asset classes
       </Typography>
 
       <Container>
 
-      <TableContainer component={Paper} sx={{ height:450, maxWidth:800, justifyContent: 'center', marginTop:5, marginBottom: 5, boxShadow: 4, border:'none'}}>
+      <TableContainer component={Paper} sx={{ height:450, maxWidth:800, marginTop:5, marginBottom: 5, boxShadow: 4, border:'none' }}>
       <Table aria-label="table" >
         <TableHead>
           <TableRow>
@@ -62,7 +62,11 @@ export default function AcccessibleTable() {
           ))}
         </TableBody>
       </Table>
-    </TableContainer>
+      </TableContainer>
+
+
+
+
   </Container>
 
 </div>
