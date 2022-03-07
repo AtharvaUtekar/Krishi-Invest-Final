@@ -30,6 +30,17 @@ const navbar = () => {
                 </li>
               );
             })}
+
+            <li className="nav-item">
+
+              <Link href="/login">
+                <Button className="nav_link nav-title2" color="secondary" size="large" sx={{ border: 1 }}>
+                  {/*<h5 className="nav-title">Login to Dashboard</h5>*/}
+                  Login to Dashboard
+                </Button>
+              </Link>
+
+              </li>
         </ul>
     </div>
   </nav>
@@ -37,3 +48,4 @@ const navbar = () => {
 }
 
 export default navbar
+

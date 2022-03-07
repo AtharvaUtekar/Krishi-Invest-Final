@@ -41,8 +41,8 @@ const hero3 = () => {
         <div style={insideStyles}>Dynamic Blur</div>
       </div>
     </Parallax> */}
-    <Parallax bgImage={image3} strength={700}  blur={{ min: -10, max: 5 }}>
-    <div style={{ height: 550 }} className="hero3-div">
+    <Parallax bgImage={image3} strength={700} blur={{ min: -10, max: 5 }}>
+    <div style={{ height: 400 }} className="hero3-div">
 
       <div style={insideStyles} className="hero3-div">
 
@@ -74,8 +74,6 @@ const hero3 = () => {
 
     </div>
     </Parallax>
-
-    <div style={{ height: 25 }} />
 
   </div>
     );

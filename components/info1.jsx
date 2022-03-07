@@ -22,7 +22,7 @@ const rows = [
   createData('Equity Build Up', <CheckCircleIcon sx={{ color: 'success.main' }}/>, <CheckCircleIcon sx={{ color: 'success.main' }}/>, <CancelIcon sx={{ color: 'error.main' }}/>, <CancelIcon sx={{ color: 'error.main' }}/>, <CheckCircleIcon sx={{ color: 'success.main' }}/>, <CancelIcon sx={{ color: 'error.main' }}/>),
   createData('Hard Asset', <CheckCircleIcon sx={{ color: 'success.main' }}/>, <CancelIcon sx={{ color: 'error.main' }}/>, <CheckCircleIcon sx={{ color: 'success.main' }}/>, <CheckCircleIcon sx={{ color: 'success.main' }}/>, <CheckCircleIcon sx={{ color: 'success.main' }}/>, <CancelIcon sx={{ color: 'error.main' }}/>),
   createData('Inflation Hedge', <CheckCircleIcon sx={{ color: 'success.main' }}/>, <CancelIcon sx={{ color: 'error.main' }}/>, <CheckCircleIcon sx={{ color: 'success.main' }}/>, <CheckCircleIcon sx={{ color: 'success.main' }}/>,<CancelIcon sx={{ color: 'error.main' }}/>,<CancelIcon sx={{ color: 'error.main' }}/>),
-  createData('Average Annual Return', '14-19%', '6-8%', '9%', '5%', '2-4%', '4-20%'),
+  createData('Average Annual Return', '19-27%', '6-8%', '9%', '5%', '2-4%', '4-20%'),
 ];
 
 export default function AcccessibleTable() {

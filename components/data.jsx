@@ -16,6 +16,12 @@ export const links = [
     url: '/faq',
     text: 'FAQ',
   },
+  {
+    id: 4,
+    url: '/ourtechniques',
+    text: 'Our Techniques',
+  },
+  
 ];
 
 export const social = [

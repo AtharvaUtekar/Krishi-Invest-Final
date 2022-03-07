@@ -34,15 +34,15 @@ const navbar = () => {
             <li className="nav-item">
 
                 <Link href="/login">
-                  <a className="nav_link">
-                    <h5 className="nav-title">Login to Dashboard</h5>
-                  </a>
+                  <Button className="nav_link nav-title" color="secondary" size="large" sx={{ border: 1, borderColor: 'text.primary'  }}>
+                    {/*<h5 className="nav-title">Login to Dashboard</h5>*/}
+                    Login to Dashboard
+                  </Button>
                 </Link>
 
             </li>
 
         </ul>
-
     </div>
 
   </nav>

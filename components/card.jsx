@@ -19,10 +19,13 @@ import Link from 'next/link'
 
 import { Farms } from './data';
 
+{/* */}
 
 const card = () => {
-  return <>
-    <Typography gutterBottom variant="h4" sx={{ fontWeight: 600, paddingLeft:15, paddingTop: 2, marginBottom: 2 }} component="h2">
+  return (
+
+    <div className="grad2">
+        <Typography gutterBottom variant="h4" sx={{ fontWeight: 600, paddingLeft:15, paddingTop: 5, marginBottom: 2 }} component="h2">
     Recently closed deals
     </Typography>
     <Container sx={{ py: 5, paddingBottom: 7, maxWidth:900 }}>
@@ -188,7 +191,8 @@ const card = () => {
 
           </Grid>
     </Container>
-  </>;
+    </div>
+  );
 };
 
 export default card;

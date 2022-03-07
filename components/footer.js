@@ -16,7 +16,7 @@ import EmailIcon from '@mui/icons-material/Email';
 
 export default function StickyFooter() {
   return (
-  <div>
+  <div className="grad1">
   
     <Container spacing={2} component="footer">
       <Grid item xs={12} sm={12} md={12} lg={12}>
@@ -30,6 +30,9 @@ export default function StickyFooter() {
             </Link>    
             <Link href="/faq">
             <Button size="medium">FAQ</Button>
+            </Link>
+            <Link href="/ourtechniques">
+            <Button size="medium">Our Techniques</Button>
             </Link> 
             <Link href="/login">
             <Button size="medium">Login to Dashboard</Button>

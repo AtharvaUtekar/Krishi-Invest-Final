@@ -1,6 +1,10 @@
 import React from "react";
 import { render } from "react-dom";
 import { Parallax, Background } from "react-parallax";
+import Container from '@mui/material/Container';
+import Grid from '@mui/material/Grid';
+import Typography from '@mui/material/Typography';
+import Link from 'next/link'
 
 const styles = {
   fontFamily: "sans-serif",
@@ -21,7 +25,7 @@ const image2 ="/images/bgImg1.jpg";
 
 const hero2 = () => {
     return(
- <div>
+ <div >
     {/* 
     Normal parallax
     <Parallax bgImage={image1} strength={500}>
@@ -38,17 +42,20 @@ const hero2 = () => {
       </div>
     </Parallax>\
     -250  */}
+    
 
-    <Parallax bgImage={image2} strength={450}>
-      <div style={{ height: 450 }}>
-        <div style={insideStyles}>
-        <h1>WE MODERNISE AGRICULTURE</h1>
-        <h2>WE MODERNISE INVESTMENTS</h2>
-        </div>
-      </div>
+    
+  
+
+    <Parallax bgImage={image2} strength={450} style={{ height: 400 }}>
+      <Grid >
+      <Typography variant="h3" mt={10} ml={10} sx={{ marginLeft: "10%", color: '#fff' }}>WE MODERNISE AGRICULTURE
+      </Typography>  
+      <br />      
+      <Typography variant="h4" mt={5} ml={10} sx={{ marginLeft: "10%", color: '#fff' }}>WE MODERNISE INVESTMENTS
+      </Typography>        
+      </Grid>
     </Parallax>
-
-    <div style={{ height: 25 }} />
 
   </div>
     );

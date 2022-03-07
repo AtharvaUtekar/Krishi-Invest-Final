@@ -3,6 +3,8 @@ import Hero1 from '../components/hero1'
 import Hero2 from '../components/hero2'
 import Hero3 from '../components/hero3'
 import Card from '../components/card'
+import Hero0 from '../components/hero0'
+import Hero4 from '../components/hero4'
 import Footer from '../components/footer'
 import Info1 from '../components/info1'
 import Carousel2 from '../components/alsoCarousel'
@@ -17,8 +19,10 @@ const landingPage = () => {
     <div style={{ height:"100%", width:"100%", minHeight: 350}}>
         <img style={{ height:"90%", width:"90%" }} className="mainimgdiv" src="images/invest.png"/> 
     </div>
+    <Hero0 />
 
     <Info1  />
+    <Hero4  />
     <Hero2  /> 
     <Card   />  
     <Hero3  />

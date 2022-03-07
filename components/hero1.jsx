@@ -48,44 +48,6 @@ const herosection = () => {
 
     <Parallax bgImage={image2} strength={-175} speed={20}>
 
-      {/*
-      <nav className="navbar navbar-expand-lg navbar-transparent">
-        <Link href="/">
-            <img className="navbar-logo" src="/images/bg_oglogo.png" />
-        </Link>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon" />
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav navleft">
-                {links.map((link) => {
-                  const { id, url, text } = link;
-                  return (
-                    <li className="nav-item" key={id}>
-                      <div className="nav-link">
-                      <Link href={url}>
-                        <a className="nav_link">
-                          <h5 className="nav-title">{text}</h5>
-                        </a>
-                      </Link>
-                      </div>
-
-                    </li>
-                  );
-                })}
-            </ul>
-        </div>
-        <Link href='/login'>
-  
-          <Button variant="outlined" color="success" size="medium" sx={{marginRight: 7, color:'#fff', borderColor: '#fff'}}>
-            Login to Dashboard
-          </Button>
-        </Link>
-      </nav>
-
-      
-        <Typography variant="h3" sx={{ fontWeight: '500' }}>कृषिinvest</Typography>
-      */}
       <Navbar />
 
    
@@ -93,14 +55,12 @@ const herosection = () => {
 
         <div style={insideStyles}>
         <h2>Diversify your portfolio while supporting a farmer</h2>
-        <h3>Investing online, in minutes.</h3>
+        <h3>Investing online, within minutes.</h3>
         </div>
       </div>
     </Parallax>
-
-    <div style={{ height: 25 }} />
     {/*<img src="/images/i1.png" className="img1" />*/}
-    <div style={{ height: 25 }} />
+
 
     </div>
   );
