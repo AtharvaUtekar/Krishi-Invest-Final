@@ -14,16 +14,16 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import EmailIcon from '@mui/icons-material/Email';
 
 
+
 export default function StickyFooter() {
   return (
   <div className="grad1">
   
-    <Container spacing={2} component="footer">
-      <Grid item xs={12} sm={12} md={12} lg={12}>
-        <CardContent>
-            <CardActions>
+    <Container component="footer">
+      <Grid item xs={12} sm={12} md={12} lg={12} columns={10}>
+      <Grid sx={{ paddingTop:5, marginBottom:5 }}>
             <Link href="/whatwedo">
-            <Button size="medium">What we do ?</Button>
+            <Button size="medium">What we do?</Button>
             </Link> 
             <Link href="/ourexperts">
             <Button size="medium">Our Experts</Button>
@@ -37,10 +37,7 @@ export default function StickyFooter() {
             <Link href="/login">
             <Button size="medium">Login to Dashboard</Button>
             </Link> 
-            </CardActions>
-        </CardContent>
-
-
+            </Grid>
       </Grid>
 
       <Grid item xs={12} sm={12} md={12} lg={12}>

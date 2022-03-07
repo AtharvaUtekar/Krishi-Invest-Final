@@ -16,7 +16,7 @@ const landingPage = () => {
   return <>
     
     <Hero1  />
-    <div style={{ height:"100%", width:"100%", minHeight: 350}}>
+    <div style={{ height:"100%", width:"100%", marginTop:"30px", marginBottom:"30px"}}>
         <img style={{ height:"90%", width:"90%" }} className="mainimgdiv" src="images/invest.png"/> 
     </div>
     <Hero0 />
