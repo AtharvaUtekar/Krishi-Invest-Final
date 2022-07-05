@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # krishiinvest
 
 # Live deployed site:
